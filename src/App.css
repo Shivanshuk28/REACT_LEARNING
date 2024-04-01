@@ -1,0 +1,17 @@
+.App .deletebtn{
+    position: relative;
+    background-color: red;
+    left: 50%;
+}
+.App{
+    /* height: 100vh; */
+    background-color: rgb(132, 183, 183);
+}
+.App ul li{
+    margin:1.2rem;
+    list-style: none;
+}
+.App h1{
+    text-align: center;
+    color: red;
+}

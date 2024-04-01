@@ -1,0 +1,14 @@
+.addTask{
+    background-color: beige;
+}
+input{
+    padding: 5px;
+    margin:5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.addTask .addtask{
+    background-color: green;
+}
