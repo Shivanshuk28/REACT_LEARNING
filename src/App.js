@@ -4,6 +4,10 @@ import React from 'react'
 import Task from "./component/Task";
 import AddTask from "./component/AddTask";
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Topsection from "./component/Topsection";
+import CardData from "./component/CardData";
+
 
 
 export default function App() {
@@ -16,6 +20,8 @@ export default function App() {
   return (
     <div>
       <Header/>
+      <Topsection/>
+      <CardData/>
       <AddTask setTask={setTask} tasks={tasks}/>
       <Task setTask={setTask} tasks={tasks} />
       <Footer/>

@@ -3,9 +3,7 @@ import { useState } from 'react'
 import '../App.css'
 // import AddTask from './AddTask'
 export default function Task({tasks,setTask}) {
-  
-
-  
+  console.log('task') 
     function taskDelete(id){
       setTask(tasks.filter((t)=>t.id!=id))
     }
@@ -17,7 +15,6 @@ export default function Task({tasks,setTask}) {
 
   return(
     <div className="App">
-    
     <h1>Task-list 
       <button className='btn' onClick={showhide}>SHOW/ HIDE</button></h1>
     

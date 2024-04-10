@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './AddTask.css'
 export default function AddTask({tasks,setTask}) {
+  console.log('adtask') 
 console.log('THIS IS PROPS')
 // console.log(t)
 const[task,setnewTask]=useState('')
